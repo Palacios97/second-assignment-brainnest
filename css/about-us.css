@@ -128,16 +128,35 @@ h3{
     margin-top: 5rem;
 }
 .values-container .values-content{
+    display: flex;
     width: 15rem;
     height: 29rem;
+    align-items:flex-start;
+    padding: 7rem 2rem;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1016%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1017)'%3e%3c/rect%3e%3cpath d='M915.81 72.84 a109.34 109.34 0 1 0 218.68 0 a109.34 109.34 0 1 0 -218.68 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M226.701%2c493.999C264.33%2c491.587%2c284.901%2c453.702%2c302.094%2c420.144C317.304%2c390.455%2c326.16%2c357.561%2c312.099%2c327.311C295.531%2c291.67%2c266.003%2c257.59%2c226.701%2c257.955C187.783%2c258.317%2c162.621%2c294.692%2c144.01%2c328.874C126.449%2c361.127%2c116.03%2c398.18%2c132.474%2c431.017C150.605%2c467.223%2c186.292%2c496.59%2c226.701%2c493.999' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M796.9568858587605 256.53378657090167L866.2885612587769 107.85152886504423 648.2746281529031 187.2021111708853z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M463.66 347.76 a130.99 130.99 0 1 0 261.98 0 a130.99 130.99 0 1 0 -261.98 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1222.99 405.64 a142.85 142.85 0 1 0 285.7 0 a142.85 142.85 0 1 0 -285.7 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M309.525386412378 155.75544325934874L210.19511366308097 204.2020543103164 258.6417247140487 303.5323270596134 357.9719974633457 255.08571600864576z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1016'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1017'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 4rem;
 }
-.values-container .values-content .content-txt{
+.values-container .values-content .txt-values{
     font-family: 'Roboto-Bold', 'sans-serif';
     font-size: 36px;
+    background: transparent;
     color: #f9faf8;
+}
+h4{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto-Bold';
+    color: #f9faf8;
+}
+.differences{
+    display: flex;
+}
+.triforce img{
+    width: 15rem;
+    height: 15rem;
 }
 footer{
     font-family: 'Roboto-thin';
