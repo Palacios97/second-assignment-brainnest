@@ -21,10 +21,10 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    background-color: #1f2937;;
 }
 .container{
-    background: #1f2937;
+    background: rgb(68,122,147);
+    background: radial-gradient(circle, rgba(68,122,147,1) 0%, rgba(6,15,29,1) 100%);
     font-family: 'Roboto-Bold', 'sans-serif';
     padding: 1rem 12rem 2rem 12rem;
 }
@@ -39,6 +39,19 @@ header{
     color: #f9faf8;
     text-decoration: none;
 }
+button{
+    margin-top: 6rem;
+    width: 6rem;
+    height: 1.6rem;
+    font-family: 'Roboto-Medium', sans-serif;
+    background: #3882f6;
+    border: solid 2px #f9faf8;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: #f9faf8;
+}
 .links{
     text-decoration: none;
     font-family: 'Roboto-thin', 'sans-serif';
@@ -51,7 +64,7 @@ ul{
     list-style: none;
 }
 h1{
-    margin-top: 10rem;
+    margin-top: 4rem;
     width: 60rem;
     font-size: 4rem;
     font-family: 'Roboto-Bold', 'sans-serif';
@@ -150,15 +163,30 @@ h4{
     font-size: 48px;
     font-family: 'Roboto-Bold';
     color: #f9faf8;
+    margin-bottom: 4rem;
 }
 .differences{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.qualities span{
+    color: #f9faf8;
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 4rem;
+}
+.qualities p{
+    color: #e5e7eb;
+    font-family: 'Roboto';
+    font-size: 18px;
 }
 .triforce img{
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
 }
 footer{
+    background-color: #1f2937;
     font-family: 'Roboto-thin';
     color: #e5e7eb;
     justify-content: center;
