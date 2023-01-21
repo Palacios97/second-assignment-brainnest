@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+ @font-face {
+    font-family: 'Roboto-thin';
+    src: url(../Fonts/Roboto-Light.ttf);
+} 
+ @font-face {
+    font-family: 'Roboto-medium';
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto-italic';
+    src: url(../Fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../Fonts/Roboto-Bold.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    background: rgb(68,122,147);
+    background: radial-gradient(circle, rgba(68,122,147,1) 0%, rgba(6,15,29,1) 100%);
+    font-family: 'Roboto-Bold', 'sans-serif';
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 1rem 12rem 2rem 12rem;
+}
+.header-logo{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+.Go-back{
+    margin: 1rem 0 2rem 12rem;
+    width: 6rem;
+    height: 1.6rem;
+    font-family: 'Roboto-Medium', sans-serif;
+    background: #3882f6;
+    border: solid 2px #f9faf8;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.links{
+    text-decoration: none;
+    font-family: 'Roboto-thin', 'sans-serif';
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ul{
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.products{
+    padding: 1rem 5rem 2rem 5rem;
+}
+.products .cars{
+    width: 28rem;
+    height: 30rem;
+    background-color: #f9faf8;
+}
+img{
+    width: 27rem;
+    height: 15rem;
+}
+.cars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.car-bg{
+    text-align: center;
+}
+.car-bg span{
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #1f2937;
+    font-size: 28px;
+}
+.car-bg .bar{
+    background-color: #7c7d7f;
+    width: 25rem;
+    height: 0.1rem;
+    margin: 0 auto;
+}
+.car-bg .price{
+    margin-left: 6rem;
+}
+.cars .order{
+    width: 25rem;
+    height: 3rem;
+    color: #f9faf8;
+    font-family: 'Roboto-medium';
+    background: #2365cf;
+    border: transparent;
+    margin: 2rem 1rem;
+}
+.cars .finance{
+    width: 25rem;
+    height: 3rem;
+    color: #f9faf8;
+    font-family: 'Roboto-medium';
+    background: #1f2937;
+    border: transparent;
+}
+.cars .finance:hover{
+    border: solid 2px #3882f6;
+    cursor: pointer
+}
+.cars .order:hover{
+    border: solid 2px #1f2937;
+    cursor: pointer;
+}
+footer{
+    background-color: #1f2937;
+    font-family: 'Roboto-thin';
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+    display: flex;
+}

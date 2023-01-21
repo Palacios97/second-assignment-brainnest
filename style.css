@@ -192,6 +192,7 @@ h2{
 .action-time .flex-time h3{
     font-family: 'Roboto';
     font-weight: 500;
+    color: #f9faf8;
 }
 .action-time .flex-time h3 p{
     text-align:start;
