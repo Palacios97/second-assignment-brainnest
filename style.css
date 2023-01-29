@@ -359,7 +359,7 @@ h2{
     padding: 6rem 17rem ;
     margin-bottom: 5rem;
 }
-.quote p{
+.quote blockquote{
     font-family: 'Roboto-Italic', 'sans-serif';
     font-size: 36px;
     font-weight: lighter;

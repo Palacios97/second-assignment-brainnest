@@ -97,7 +97,7 @@ ul{
     gap: 1.5em;
     list-style: none;
 }
-section{
+main{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -222,11 +222,11 @@ img{
     height: 15rem;
 }
 .cars{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 6px 2px 16px 2px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 2px 16px 2px rgba(0,0,0,0.75);
 -webkit-box-shadow: 6px 2px 16px 2px rgba(0,0,0,0.75);
 -moz-box-shadow: 6px 2px 16px 2px rgba(0,0,0,0.75);
 vertical-align: middle;
