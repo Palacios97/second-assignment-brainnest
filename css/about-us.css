@@ -215,27 +215,34 @@ h1{
     margin-bottom: 7rem;
 }
 .gallery .up{
-    background: url(/src/gallery-up.jpg)center;
-    background-size: cover;
     width: 18rem;
     height: 29rem;
-    padding-top: 3rem;
-    border-radius: 15px;
+}
+.up .up-img{
+  width: 18rem;
+  height: 29rem;
+  border-radius: 15px;
 }
 .gallery .up-2{
     width: 18rem;
     height: 29rem;
-    background: url(/src/gallery-up-two.jpg)center/cover;
-    border-radius: 15px;
+}
+.up-2 .up-two-img{
+  width: 18rem;
+  height: 29rem;
+  border-radius: 15px;
 }
 .down{
     margin-top: 5rem;
 }
+.down .down-img{
+  width: 18rem;
+  height: 29rem;
+  border-radius: 15px;
+}
 .gallery .down{
     width: 18rem;
     height: 29rem;
-    background: url(/src/gallery-down-two.jpg)center/cover;
-    border-radius: 15px;
 }
 
 .up, .up-2, .down{
