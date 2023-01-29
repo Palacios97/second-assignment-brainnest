@@ -299,6 +299,7 @@ form{
 textarea{
     height: 14rem;
     width: 44rem;
+    resize: none;
     font-family: 'Roboto-thin';
     margin-bottom: 2rem; 
     border: solid 2px #3882f6;
