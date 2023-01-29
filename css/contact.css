@@ -27,7 +27,7 @@
 .container{
     background: rgb(68,122,147);
     background: radial-gradient(circle, rgba(68,122,147,1) 0%, rgba(6,15,29,1) 100%);
-    padding: 1rem 12rem 2rem 12rem;
+    padding: 1rem 13rem 2rem 12rem;
     -webkit-animation: bounce-in-left 1.1s both;
     animation: bounce-in-left 1.1s both;
 }
@@ -204,6 +204,7 @@ ul{
 .contact-container{
     display: flex;
     justify-content: center;
+    width:fit-content;
 }
 .img-container{
     display: flex;
