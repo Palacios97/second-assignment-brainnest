@@ -27,16 +27,19 @@ Page that provide a form where the user can get in touch with the agency
 Page that explain to the user a story behind of a car agency progress, values and what they really care of
 
 - Home Page
+
 ![Home-Page](/src/home-page.png)
 
 ---
 
 - Products
+
 ![Products](/src/products.png)
 
 ---
 
 - Contact
+
 ![Contact](/src/contact.png)
 
 
