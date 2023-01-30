@@ -28,7 +28,11 @@ Page that explain to the user a story behind of a car agency progress, values an
 
 ## ![Home-Page](/src/home-page.png)
 
+---
+
 ## ![Products](/src/products.png)
+
+---
 
 ## ![Contact](/src/contact.png)
 
