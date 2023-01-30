@@ -26,15 +26,18 @@ Page that provide a form where the user can get in touch with the agency
 
 Page that explain to the user a story behind of a car agency progress, values and what they really care of
 
-## ![Home-Page](/src/home-page.png)
+![Home-Page](/src/home-page.png)
+
+---
+![Products](/src/products.png)
 
 ---
 
-## ![Products](/src/products.png)
+![Contact](/src/contact.png)
+
+
+I leave a link in case you want to take a look https://palacios97.github.io/second-assignment-brainnest/
 
 ---
 
-## ![Contact](/src/contact.png)
-
-Code with love by Miguel Palacios
-https://palacios97.github.io/second-assignment-brainnest/
+Coded with love by Miguel Palacios
